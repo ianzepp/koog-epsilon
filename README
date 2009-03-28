@@ -1,0 +1,17 @@
+As of March 13, 2001
+====================
+
+1. compiling with --enable-final breaks. Don't use for now.
+2. compiling requires qt >= 2.2.2 and qt < 2.3.0
+        - compiling with qt 2.2.2 works
+        - compiling with qt 2.2.3 works
+        - compiling with qt 2.2.4 works
+
+        - compiling with qt 2.3.0 DOES NOT WORK. If somebody smarter than me
+          can fix up the configure.in or whichever file to let it configure,
+          I would be most grateful.
+
+3. don't know what the minimum version of KDE is required. Suggest using
+   at least KDE 2.1 ..
+
+4. Would like some help with a debian package as well .. :)

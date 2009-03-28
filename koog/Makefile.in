@@ -1,0 +1,790 @@
+# KDE tags expanded automatically by am_edit - $Revision: 1.1.1.1 $ 
+# Makefile.in generated automatically by automake 1.4 from Makefile.am
+
+# Copyright (C) 1994, 1995-8, 1999 Free Software Foundation, Inc.
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+####### kdevelop will overwrite this part!!! (begin)##########
+
+
+SHELL = @SHELL@
+
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
+prefix = @prefix@
+exec_prefix = @exec_prefix@
+#>- 
+bindir = @bindir@
+#>+ 3
+DEPDIR = .deps
+
+bindir = @bindir@
+sbindir = @sbindir@
+libexecdir = @libexecdir@
+datadir = @datadir@
+sysconfdir = @sysconfdir@
+sharedstatedir = @sharedstatedir@
+localstatedir = @localstatedir@
+libdir = @libdir@
+infodir = @infodir@
+mandir = @mandir@
+includedir = @includedir@
+oldincludedir = /usr/include
+
+DESTDIR =
+
+pkgdatadir = $(datadir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
+
+top_builddir = ..
+
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
+
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@ $(AM_INSTALL_PROGRAM_FLAGS)
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+transform = @program_transform_name@
+
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+build_alias = @build_alias@
+build_triplet = @build@
+host_alias = @host_alias@
+host_triplet = @host@
+target_alias = @target_alias@
+target_triplet = @target@
+ARTSCCONFIG = @ARTSCCONFIG@
+AS = @AS@
+AUTODIRS = @AUTODIRS@
+CC = @CC@
+CONF_FILES = @CONF_FILES@
+CPP = @CPP@
+CXX = @CXX@
+CXXCPP = @CXXCPP@
+DCOPIDL = @DCOPIDL@
+DCOPIDL2CPP = @DCOPIDL2CPP@
+DCOP_DEPENDENCIES = @DCOP_DEPENDENCIES@
+DLLTOOL = @DLLTOOL@
+DPMSINC = @DPMSINC@
+DPMSLIB = @DPMSLIB@
+EXEEXT = @EXEEXT@
+GCJ = @GCJ@
+GCJFLAGS = @GCJFLAGS@
+GLINC = @GLINC@
+GLLIB = @GLLIB@
+GMSGFMT = @GMSGFMT@
+IDL = @IDL@
+IDL_DEPENDENCIES = @IDL_DEPENDENCIES@
+KDB2HTML = @KDB2HTML@
+KDECONFIG = @KDECONFIG@
+KDE_CXXFLAGS = @KDE_CXXFLAGS@
+KDE_EXTRA_RPATH = @KDE_EXTRA_RPATH@
+KDE_INCLUDES = @KDE_INCLUDES@
+KDE_LDFLAGS = @KDE_LDFLAGS@
+KDE_PLUGIN = @KDE_PLUGIN@
+KDE_RPATH = @KDE_RPATH@
+KDE_USE_CLOSURE_FALSE = @KDE_USE_CLOSURE_FALSE@
+KDE_USE_CLOSURE_TRUE = @KDE_USE_CLOSURE_TRUE@
+KDE_USE_FINAL_FALSE = @KDE_USE_FINAL_FALSE@
+KDE_USE_FINAL_TRUE = @KDE_USE_FINAL_TRUE@
+LIBCOMPAT = @LIBCOMPAT@
+LIBCRYPT = @LIBCRYPT@
+LIBDL = @LIBDL@
+LIBJPEG = @LIBJPEG@
+LIBMICO = @LIBMICO@
+LIBOBJS = @LIBOBJS@
+LIBPNG = @LIBPNG@
+LIBPTHREAD = @LIBPTHREAD@
+LIBPYTHON = @LIBPYTHON@
+LIBQIMGIO = @LIBQIMGIO@
+LIBSM = @LIBSM@
+LIBSOCKET = @LIBSOCKET@
+LIBTIFF = @LIBTIFF@
+LIBTOOL = @LIBTOOL@
+LIBUCB = @LIBUCB@
+LIBZ = @LIBZ@
+LIB_KAB = @LIB_KAB@
+LIB_KDECORE = @LIB_KDECORE@
+LIB_KDEUI = @LIB_KDEUI@
+LIB_KFILE = @LIB_KFILE@
+LIB_KFM = @LIB_KFM@
+LIB_KFORMULA = @LIB_KFORMULA@
+LIB_KHTML = @LIB_KHTML@
+LIB_KIMGIO = @LIB_KIMGIO@
+LIB_KIO = @LIB_KIO@
+LIB_KPARTS = @LIB_KPARTS@
+LIB_KSPELL = @LIB_KSPELL@
+LIB_KSYCOCA = @LIB_KSYCOCA@
+LIB_KWRITE = @LIB_KWRITE@
+LIB_QT = @LIB_QT@
+LIB_SMB = @LIB_SMB@
+LIB_X11 = @LIB_X11@
+LN_S = @LN_S@
+MAKEINFO = @MAKEINFO@
+MCOPIDL = @MCOPIDL@
+MICO_INCLUDES = @MICO_INCLUDES@
+MICO_LDFLAGS = @MICO_LDFLAGS@
+MOC = @MOC@
+MSGFMT = @MSGFMT@
+NOOPT_CXXFLAGS = @NOOPT_CXXFLAGS@
+NOREPO = @NOREPO@
+OBJDUMP = @OBJDUMP@
+OBJEXT = @OBJEXT@
+PACKAGE = @PACKAGE@
+PAMINC = @PAMINC@
+PAMLIBPATHS = @PAMLIBPATHS@
+PAMLIBS = @PAMLIBS@
+PYTHONINC = @PYTHONINC@
+PYTHONLIB = @PYTHONLIB@
+PYTHONMODDIR = @PYTHONMODDIR@
+QT_INCLUDES = @QT_INCLUDES@
+QT_LDFLAGS = @QT_LDFLAGS@
+RANLIB = @RANLIB@
+REPO = @REPO@
+STRIP = @STRIP@
+TOPSUBDIRS = @TOPSUBDIRS@
+UIC = @UIC@
+USER_INCLUDES = @USER_INCLUDES@
+USER_LDFLAGS = @USER_LDFLAGS@
+USE_EXCEPTIONS = @USE_EXCEPTIONS@
+USE_RTTI = @USE_RTTI@
+USE_THREADS = @USE_THREADS@
+VERSION = @VERSION@
+XGETTEXT = @XGETTEXT@
+XPMINC = @XPMINC@
+XPMLIB = @XPMLIB@
+X_EXTRA_LIBS = @X_EXTRA_LIBS@
+X_INCLUDES = @X_INCLUDES@
+X_LDFLAGS = @X_LDFLAGS@
+X_PRE_LIBS = @X_PRE_LIBS@
+all_includes = @all_includes@
+all_libraries = @all_libraries@
+idldir = @idldir@
+kde_appsdir = @kde_appsdir@
+kde_bindir = @kde_bindir@
+kde_confdir = @kde_confdir@
+kde_datadir = @kde_datadir@
+kde_htmldir = @kde_htmldir@
+kde_icondir = @kde_icondir@
+kde_includes = @kde_includes@
+kde_libraries = @kde_libraries@
+kde_libs_htmldir = @kde_libs_htmldir@
+kde_libs_prefix = @kde_libs_prefix@
+kde_locale = @kde_locale@
+kde_mimedir = @kde_mimedir@
+kde_moduledir = @kde_moduledir@
+kde_servicesdir = @kde_servicesdir@
+kde_servicetypesdir = @kde_servicetypesdir@
+kde_sounddir = @kde_sounddir@
+kde_templatesdir = @kde_templatesdir@
+kde_wallpaperdir = @kde_wallpaperdir@
+micodir = @micodir@
+qt_includes = @qt_includes@
+qt_libraries = @qt_libraries@
+x_includes = @x_includes@
+x_libraries = @x_libraries@
+
+bin_PROGRAMS = koog
+#>- koog_SOURCES = uichanneldialog.cpp uichanneldialogbase.ui uipagetext.cpp uipageview.cpp uipagemenu.cpp uichannelpage.cpp mp3header.cpp uipageheaderdrag.cpp uipageheaderbutton.cpp uipageheader.cpp uisetupdialog.cpp uisetupdialogbase.ui uibrowsepage.cpp uilibrarypage.cpp uilistview.cpp uisearch.cpp uisearchbase.ui uiconsolepage.cpp iosupport.cpp ionapstertransfer.cpp ionapsterconnection.cpp ionapstercodes.cpp iomessage.cpp ioconnection.cpp uitransferpage.cpp uisearchpage.cpp uipage.cpp koog.cpp main.cpp 
+#>+ 1
+koog_SOURCES=uichanneldialog.cpp  uipagetext.cpp uipageview.cpp uipagemenu.cpp uichannelpage.cpp mp3header.cpp uipageheaderdrag.cpp uipageheaderbutton.cpp uipageheader.cpp uisetupdialog.cpp  uibrowsepage.cpp uilibrarypage.cpp uilistview.cpp uisearch.cpp  uiconsolepage.cpp iosupport.cpp ionapstertransfer.cpp ionapsterconnection.cpp ionapstercodes.cpp iomessage.cpp ioconnection.cpp uitransferpage.cpp uisearchpage.cpp uipage.cpp koog.cpp main.cpp  uichanneldialogbase.cpp uisetupdialogbase.cpp uisearchbase.cpp
+koog_LDADD = -lkfile -lkdeui -lkdecore $(LIB_QT) $(LIBSOCKET)
+
+EXTRA_DIST = main.cpp koog.cpp koog.h koog.desktop lo32-app-koog.png lo16-app-koog.png uipage.cpp uipage.h uisearchpage.cpp uisearchpage.h uitransferpage.cpp uitransferpage.h ioconnection.cpp ioconnection.h iomessage.cpp iomessage.h ionapstercodes.cpp ionapstercodes.h ionapsterconnection.cpp ionapsterconnection.h ionapstertransfer.cpp ionapstertransfer.h iosupport.cpp iosupport.h uiconsolepage.cpp uiconsolepage.h uisearchbase.ui uisearch.cpp uisearch.h uilistview.cpp uilistview.h koog_question.xpm koog_cancel.xpm uilibrarypage.cpp uilibrarypage.h uiconfig.h uibrowsepage.cpp uibrowsepage.h uisetupdialogbase.ui uisetupdialog.cpp uisetupdialog.h uipageheader.cpp uipageheader.h uipageheaderbutton.cpp uipageheaderbutton.h uipageheaderdrag.cpp uipageheaderdrag.h mp3header.cpp mp3header.h napster.txt uichannelpage.cpp uichannelpage.h uipagemenu.cpp uipagemenu.h uipageview.cpp uipageview.h uipagetext.cpp uipagetext.h uichanneldialogbase.ui uichanneldialog.cpp uichanneldialog.h 
+
+####### kdevelop will overwrite this part!!! (end)############
+# this 10 paths are KDE specific. Use them:
+# kde_htmldir       Where your docs should go to. (contains lang subdirs)
+# kde_appsdir       Where your application file (.kdelnk) should go to. 
+# kde_icondir       Where your icon should go to.
+# kde_minidir       Where your mini icon should go to.
+# kde_datadir       Where you install application data. (Use a subdir)
+# kde_locale        Where translation files should go to.(contains lang subdirs)
+# kde_cgidir        Where cgi-bin executables should go to.
+# kde_confdir       Where config files should go to.
+# kde_mimedir       Where mimetypes should go to.
+# kde_toolbardir    Where general toolbar icons should go to.
+# kde_wallpaperdir  Where general wallpapers should go to.
+
+# set the include path for X, qt and KDE
+INCLUDES = $(all_includes)
+
+#>- METASOURCES = AUTO
+
+# the library search path. 
+koog_LDFLAGS = $(all_libraries) $(KDE_RPATH)
+mkinstalldirs = $(SHELL) $(top_srcdir)/admin/mkinstalldirs
+CONFIG_HEADER = ../config.h
+CONFIG_CLEAN_FILES = 
+bin_PROGRAMS =  koog$(EXEEXT)
+PROGRAMS =  $(bin_PROGRAMS)
+
+
+DEFS = @DEFS@ -I. -I$(srcdir) -I..
+CPPFLAGS = @CPPFLAGS@
+LDFLAGS = @LDFLAGS@
+LIBS = @LIBS@
+#>- koog_OBJECTS =  uichanneldialog.$(OBJEXT) uipagetext.$(OBJEXT) \
+#>- uipageview.$(OBJEXT) uipagemenu.$(OBJEXT) uichannelpage.$(OBJEXT) \
+#>- mp3header.$(OBJEXT) uipageheaderdrag.$(OBJEXT) \
+#>- uipageheaderbutton.$(OBJEXT) uipageheader.$(OBJEXT) \
+#>- uisetupdialog.$(OBJEXT) uibrowsepage.$(OBJEXT) uilibrarypage.$(OBJEXT) \
+#>- uilistview.$(OBJEXT) uisearch.$(OBJEXT) uiconsolepage.$(OBJEXT) \
+#>- iosupport.$(OBJEXT) ionapstertransfer.$(OBJEXT) \
+#>- ionapsterconnection.$(OBJEXT) ionapstercodes.$(OBJEXT) \
+#>- iomessage.$(OBJEXT) ioconnection.$(OBJEXT) uitransferpage.$(OBJEXT) \
+#>- uisearchpage.$(OBJEXT) uipage.$(OBJEXT) koog.$(OBJEXT) main.$(OBJEXT)
+#>+ 15
+koog_final_OBJECTS = koog.all_cpp.o 
+koog_nofinal_OBJECTS = uichanneldialog.$(OBJEXT) uipagetext.$(OBJEXT) \
+uipageview.$(OBJEXT) uipagemenu.$(OBJEXT) uichannelpage.$(OBJEXT) \
+mp3header.$(OBJEXT) uipageheaderdrag.$(OBJEXT) \
+uipageheaderbutton.$(OBJEXT) uipageheader.$(OBJEXT) \
+uisetupdialog.$(OBJEXT) uibrowsepage.$(OBJEXT) uilibrarypage.$(OBJEXT) \
+uilistview.$(OBJEXT) uisearch.$(OBJEXT) uiconsolepage.$(OBJEXT) \
+iosupport.$(OBJEXT) ionapstertransfer.$(OBJEXT) \
+ionapsterconnection.$(OBJEXT) ionapstercodes.$(OBJEXT) \
+iomessage.$(OBJEXT) ioconnection.$(OBJEXT) uitransferpage.$(OBJEXT) \
+uisearchpage.$(OBJEXT) uipage.$(OBJEXT) koog.$(OBJEXT) main.$(OBJEXT) uichanneldialogbase.$(OBJEXT) uisetupdialogbase.$(OBJEXT) uisearchbase.$(OBJEXT)\
+iosupport.moc.o uipageview.moc.o uipagemenu.moc.o uichannelpage.moc.o uisearchpage.moc.o uisetupdialog.moc.o ionapstertransfer.moc.o uipageheaderdrag.moc.o koog.moc.o uilistview.moc.o uilibrarypage.moc.o ionapsterconnection.moc.o uipagetext.moc.o ioconnection.moc.o uichanneldialog.moc.o uipage.moc.o uisearch.moc.o uiconsolepage.moc.o uibrowsepage.moc.o uitransferpage.moc.o uipageheaderbutton.moc.o uipageheader.moc.o  \
+koog_meta_unload.o 
+@KDE_USE_FINAL_FALSE@koog_OBJECTS = $(koog_nofinal_OBJECTS)
+@KDE_USE_FINAL_TRUE@koog_OBJECTS = $(koog_final_OBJECTS)
+koog_DEPENDENCIES = 
+CXXFLAGS = @CXXFLAGS@
+#>- CXXCOMPILE = $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
+#>+ 1
+CXXCOMPILE = $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) $(KDE_CXXFLAGS)
+#>- LTCXXCOMPILE = $(LIBTOOL) --mode=compile $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS)
+#>+ 1
+LTCXXCOMPILE = $(LIBTOOL) --mode=compile --tag=CXX $(CXX) $(DEFS) $(INCLUDES) $(AM_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) $(KDE_CXXFLAGS)
+CXXLD = $(CXX)
+#>- CXXLINK = $(LIBTOOL) --mode=link $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(LDFLAGS) -o $@
+#>+ 1
+CXXLINK = $(LIBTOOL) --mode=link --tag=CXX $(CXXLD) $(AM_CXXFLAGS) $(CXXFLAGS) $(KDE_CXXFLAGS) $(LDFLAGS) -o $@
+DIST_COMMON =  Makefile.am Makefile.in
+
+
+#>- DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
+#>+ 4
+KDE_DIST=uisourcebase.h uisourcebase.cpp 
+
+DISTFILES= $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST) $(KDE_DIST)
+
+
+TAR = tar
+GZIP_ENV = --best
+SOURCES = $(koog_SOURCES)
+OBJECTS = $(koog_OBJECTS)
+
+#>- all: all-redirect
+#>+ 1
+all: docs-am  all-redirect
+.SUFFIXES:
+.SUFFIXES: .S .c .cpp .lo .o .obj .s
+$(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.in $(ACLOCAL_M4) 
+#>- 	cd $(top_srcdir) && $(AUTOMAKE) --gnu --include-deps koog/Makefile
+#>+ 2
+	cd $(top_srcdir) && $(AUTOMAKE) --gnu --include-deps koog/Makefile
+	cd $(top_srcdir) && perl admin/am_edit koog/Makefile.in
+
+Makefile: $(srcdir)/Makefile.in  $(top_builddir)/config.status
+	cd $(top_builddir) \
+	  && CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+
+mostlyclean-binPROGRAMS:
+
+clean-binPROGRAMS:
+	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
+
+distclean-binPROGRAMS:
+
+maintainer-clean-binPROGRAMS:
+
+install-binPROGRAMS: $(bin_PROGRAMS)
+	@$(NORMAL_INSTALL)
+	$(mkinstalldirs) $(DESTDIR)$(bindir)
+	@list='$(bin_PROGRAMS)'; for p in $$list; do \
+	  if test -f $$p; then \
+	    echo " $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`"; \
+	    $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`; \
+	  else :; fi; \
+	done
+
+uninstall-binPROGRAMS:
+	@$(NORMAL_UNINSTALL)
+	list='$(bin_PROGRAMS)'; for p in $$list; do \
+	  rm -f $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`; \
+	done
+
+.c.o:
+	$(COMPILE) -c $<
+
+# FIXME: We should only use cygpath when building on Windows,
+# and only if it is available.
+.c.obj:
+	$(COMPILE) -c `cygpath -w $<`
+
+.s.o:
+	$(COMPILE) -c $<
+
+.S.o:
+	$(COMPILE) -c $<
+
+mostlyclean-compile:
+	-rm -f *.o core *.core
+	-rm -f *.$(OBJEXT)
+
+clean-compile:
+
+distclean-compile:
+	-rm -f *.tab.c
+
+maintainer-clean-compile:
+
+.c.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+.s.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+.S.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+mostlyclean-libtool:
+	-rm -f *.lo
+
+clean-libtool:
+	-rm -rf .libs _libs
+
+distclean-libtool:
+
+maintainer-clean-libtool:
+
+koog$(EXEEXT): $(koog_OBJECTS) $(koog_DEPENDENCIES)
+	@rm -f koog$(EXEEXT)
+	$(CXXLINK) $(koog_LDFLAGS) $(koog_OBJECTS) $(koog_LDADD) $(LIBS)
+.cpp.o:
+	$(CXXCOMPILE) -c $<
+.cpp.obj:
+	$(CXXCOMPILE) -c `cygpath -w $<`
+.cpp.lo:
+	$(LTCXXCOMPILE) -c $<
+
+tags: TAGS
+
+ID: $(HEADERS) $(SOURCES) $(LISP)
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	  awk '    { files[$$0] = 1; } \
+	       END { for (i in files) print i; }'`; \
+	here=`pwd` && cd $(srcdir) \
+	  && mkid -f$$here/ID $$unique $(LISP)
+
+TAGS:  $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) $(LISP)
+	tags=; \
+	here=`pwd`; \
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	  awk '    { files[$$0] = 1; } \
+	       END { for (i in files) print i; }'`; \
+	test -z "$(ETAGS_ARGS)$$unique$(LISP)$$tags" \
+	  || (cd $(srcdir) && etags $(ETAGS_ARGS) $$tags  $$unique $(LISP) -o $$here/TAGS)
+
+mostlyclean-tags:
+
+clean-tags:
+
+distclean-tags:
+	-rm -f TAGS ID
+
+maintainer-clean-tags:
+
+distdir = $(top_builddir)/$(PACKAGE)-$(VERSION)/$(subdir)
+
+subdir = koog
+
+distdir: $(DISTFILES)
+	@for file in $(DISTFILES); do \
+	  d=$(srcdir); \
+	  if test -d $$d/$$file; then \
+	    cp -pr $$d/$$file $(distdir)/$$file; \
+	  else \
+	    test -f $(distdir)/$$file \
+	    || ln $$d/$$file $(distdir)/$$file 2> /dev/null \
+	    || cp -p $$d/$$file $(distdir)/$$file || :; \
+	  fi; \
+	done
+
+info-am:
+info: info-am
+dvi-am:
+dvi: dvi-am
+check-am: all-am
+check: check-am
+installcheck-am:
+installcheck: installcheck-am
+install-exec-am: install-binPROGRAMS
+install-exec: install-exec-am
+
+install-data-am: install-data-local
+install-data: install-data-am
+
+install-am: all-am
+	@$(MAKE) $(AM_MAKEFLAGS) install-exec-am install-data-am
+install: install-am
+uninstall-am: uninstall-binPROGRAMS uninstall-local
+uninstall: uninstall-am
+all-am: Makefile $(PROGRAMS)
+all-redirect: all-am
+install-strip:
+	$(MAKE) $(AM_MAKEFLAGS) AM_INSTALL_PROGRAM_FLAGS=-s install
+installdirs:
+	$(mkinstalldirs)  $(DESTDIR)$(bindir)
+
+
+mostlyclean-generic:
+
+clean-generic:
+
+distclean-generic:
+	-rm -f Makefile $(CONFIG_CLEAN_FILES)
+	-rm -f config.cache config.log stamp-h stamp-h[0-9]*
+
+maintainer-clean-generic:
+mostlyclean-am:  mostlyclean-binPROGRAMS mostlyclean-compile \
+		mostlyclean-libtool mostlyclean-tags \
+		mostlyclean-generic
+
+mostlyclean: mostlyclean-am
+
+#>- clean-am:  clean-binPROGRAMS clean-compile clean-libtool clean-tags \
+#>- 		clean-generic mostlyclean-am
+#>+ 2
+clean-am: clean-metasources clean-ui clean-moc-classes clean-final   clean-binPROGRAMS clean-compile clean-libtool clean-tags \
+		clean-generic mostlyclean-am
+
+#>- clean: clean-am
+#>+ 1
+clean: kde-rpo-clean  clean-am
+
+distclean-am:  distclean-binPROGRAMS distclean-compile distclean-libtool \
+		distclean-tags distclean-generic clean-am
+	-rm -f libtool
+
+distclean: distclean-am
+
+maintainer-clean-am:  maintainer-clean-binPROGRAMS \
+		maintainer-clean-compile maintainer-clean-libtool \
+		maintainer-clean-tags maintainer-clean-generic \
+		distclean-am
+	@echo "This command is intended for maintainers to use;"
+	@echo "it deletes files that may require special tools to rebuild."
+
+maintainer-clean: maintainer-clean-am
+
+.PHONY: mostlyclean-binPROGRAMS distclean-binPROGRAMS clean-binPROGRAMS \
+maintainer-clean-binPROGRAMS uninstall-binPROGRAMS install-binPROGRAMS \
+mostlyclean-compile distclean-compile clean-compile \
+maintainer-clean-compile mostlyclean-libtool distclean-libtool \
+clean-libtool maintainer-clean-libtool tags mostlyclean-tags \
+distclean-tags clean-tags maintainer-clean-tags distdir info-am info \
+dvi-am dvi check check-am installcheck-am installcheck install-exec-am \
+install-exec install-data-local install-data-am install-data install-am \
+install uninstall-local uninstall-am uninstall all-redirect all-am all \
+installdirs mostlyclean-generic distclean-generic clean-generic \
+maintainer-clean-generic clean mostlyclean distclean maintainer-clean
+
+
+install-data-local:
+#>- 	$(mkinstalldirs) $(kde_appsdir)/Applications/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_appsdir)/Applications/
+#>- 	$(INSTALL_DATA) $(srcdir)/koog.desktop $(kde_appsdir)/Applications/koog.desktop
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/koog.desktop $(DESTDIR)$(kde_appsdir)/Applications/koog.desktop
+#>- 	$(mkinstalldirs) $(kde_icondir)/locolor/32x32/apps/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_icondir)/locolor/32x32/apps/
+#>- 	$(INSTALL_DATA) $(srcdir)/lo32-app-koog.png $(kde_icondir)/locolor/32x32/apps/koog.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/lo32-app-koog.png $(DESTDIR)$(kde_icondir)/locolor/32x32/apps/koog.png
+#>- 	$(mkinstalldirs) $(kde_icondir)/locolor/16x16/apps/
+#>+ 1
+	$(mkinstalldirs) $(DESTDIR)$(kde_icondir)/locolor/16x16/apps/
+#>- 	$(INSTALL_DATA) $(srcdir)/lo16-app-koog.png $(kde_icondir)/locolor/16x16/apps/koog.png
+#>+ 1
+	$(INSTALL_DATA) $(srcdir)/lo16-app-koog.png $(DESTDIR)$(kde_icondir)/locolor/16x16/apps/koog.png
+
+uninstall-local:
+#>- 	-rm -f $(kde_appsdir)/Applications/koog.desktop
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_appsdir)/Applications/koog.desktop
+#>- 	-rm -f $(kde_icondir)/locolor/32x32/apps/koog.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_icondir)/locolor/32x32/apps/koog.png
+#>- 	-rm -f $(kde_icondir)/locolor/16x16/apps/koog.png
+#>+ 1
+	-rm -f $(DESTDIR)$(kde_icondir)/locolor/16x16/apps/koog.png
+
+# Uncomment the following two lines if you add a ui.rc file for your application to make use of
+# KDE´s XML GUI builing
+#rcdir = $(kde_datadir)/koog
+#rc_DATA = koogui.rc
+
+#WARNING: if you use a ui.rc file above, use:
+
+# messages: rc.cpp
+
+# instead of 
+
+# messages:
+
+messages: 
+	LIST=`find . -name \*.h -o -name \*.hh -o -name \*.H -o -name \*.hxx -o -name \*.hpp -o -name \*.cpp -o -name \*.cc -o -name \*.cxx -o -name \*.ecpp -o -name \*.C`; \
+	if test -n "$$LIST"; then \
+	 $(XGETTEXT) $$LIST -o $(podir)/koog.pot; \
+	fi
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:
+
+#>+ 34
+uichanneldialogbase.cpp: $(srcdir)/uichanneldialogbase.ui uichanneldialogbase.h uichanneldialogbase.moc
+	rm -f uichanneldialogbase.cpp
+	echo '#include <klocale.h>' > uichanneldialogbase.cpp
+	$(UIC) -tr i18n -i uichanneldialogbase.h $(srcdir)/uichanneldialogbase.ui | sed -e "s,i18n( \"\" ),QString::null,g" >> uichanneldialogbase.cpp || rm -f uichanneldialogbase.cpp
+	echo '#include "uichanneldialogbase.moc"' >> uichanneldialogbase.cpp
+
+uichanneldialogbase.h: $(srcdir)/uichanneldialogbase.ui
+	$(UIC) -o uichanneldialogbase.h $(srcdir)/uichanneldialogbase.ui
+
+uichanneldialogbase.moc: uichanneldialogbase.h
+	$(MOC) uichanneldialogbase.h -o uichanneldialogbase.moc
+uisetupdialogbase.cpp: $(srcdir)/uisetupdialogbase.ui uisetupdialogbase.h uisetupdialogbase.moc
+	rm -f uisetupdialogbase.cpp
+	echo '#include <klocale.h>' > uisetupdialogbase.cpp
+	$(UIC) -tr i18n -i uisetupdialogbase.h $(srcdir)/uisetupdialogbase.ui | sed -e "s,i18n( \"\" ),QString::null,g" >> uisetupdialogbase.cpp || rm -f uisetupdialogbase.cpp
+	echo '#include "uisetupdialogbase.moc"' >> uisetupdialogbase.cpp
+
+uisetupdialogbase.h: $(srcdir)/uisetupdialogbase.ui
+	$(UIC) -o uisetupdialogbase.h $(srcdir)/uisetupdialogbase.ui
+
+uisetupdialogbase.moc: uisetupdialogbase.h
+	$(MOC) uisetupdialogbase.h -o uisetupdialogbase.moc
+uisearchbase.cpp: $(srcdir)/uisearchbase.ui uisearchbase.h uisearchbase.moc
+	rm -f uisearchbase.cpp
+	echo '#include <klocale.h>' > uisearchbase.cpp
+	$(UIC) -tr i18n -i uisearchbase.h $(srcdir)/uisearchbase.ui | sed -e "s,i18n( \"\" ),QString::null,g" >> uisearchbase.cpp || rm -f uisearchbase.cpp
+	echo '#include "uisearchbase.moc"' >> uisearchbase.cpp
+
+uisearchbase.h: $(srcdir)/uisearchbase.ui
+	$(UIC) -o uisearchbase.h $(srcdir)/uisearchbase.ui
+
+uisearchbase.moc: uisearchbase.h
+	$(MOC) uisearchbase.h -o uisearchbase.moc
+
+#>+ 3
+iosupport.moc.cpp: $(srcdir)/iosupport.h
+	$(MOC) $(srcdir)/iosupport.h -o iosupport.moc.cpp
+
+#>+ 3
+uipageview.moc.cpp: $(srcdir)/uipageview.h
+	$(MOC) $(srcdir)/uipageview.h -o uipageview.moc.cpp
+
+#>+ 3
+uipagemenu.moc.cpp: $(srcdir)/uipagemenu.h
+	$(MOC) $(srcdir)/uipagemenu.h -o uipagemenu.moc.cpp
+
+#>+ 3
+uichannelpage.moc.cpp: $(srcdir)/uichannelpage.h
+	$(MOC) $(srcdir)/uichannelpage.h -o uichannelpage.moc.cpp
+
+#>+ 3
+uisearchpage.moc.cpp: $(srcdir)/uisearchpage.h
+	$(MOC) $(srcdir)/uisearchpage.h -o uisearchpage.moc.cpp
+
+#>+ 3
+uisetupdialog.moc.cpp: $(srcdir)/uisetupdialog.h
+	$(MOC) $(srcdir)/uisetupdialog.h -o uisetupdialog.moc.cpp
+
+#>+ 3
+ionapstertransfer.moc.cpp: $(srcdir)/ionapstertransfer.h
+	$(MOC) $(srcdir)/ionapstertransfer.h -o ionapstertransfer.moc.cpp
+
+#>+ 3
+uipageheaderdrag.moc.cpp: $(srcdir)/uipageheaderdrag.h
+	$(MOC) $(srcdir)/uipageheaderdrag.h -o uipageheaderdrag.moc.cpp
+
+#>+ 3
+koog.moc.cpp: $(srcdir)/koog.h
+	$(MOC) $(srcdir)/koog.h -o koog.moc.cpp
+
+#>+ 3
+uilistview.moc.cpp: $(srcdir)/uilistview.h
+	$(MOC) $(srcdir)/uilistview.h -o uilistview.moc.cpp
+
+#>+ 3
+uilibrarypage.moc.cpp: $(srcdir)/uilibrarypage.h
+	$(MOC) $(srcdir)/uilibrarypage.h -o uilibrarypage.moc.cpp
+
+#>+ 3
+ionapsterconnection.moc.cpp: $(srcdir)/ionapsterconnection.h
+	$(MOC) $(srcdir)/ionapsterconnection.h -o ionapsterconnection.moc.cpp
+
+#>+ 3
+uipagetext.moc.cpp: $(srcdir)/uipagetext.h
+	$(MOC) $(srcdir)/uipagetext.h -o uipagetext.moc.cpp
+
+#>+ 3
+uisourcebase.moc: $(srcdir)/uisourcebase.h
+	$(MOC) $(srcdir)/uisourcebase.h -o uisourcebase.moc
+
+#>+ 3
+ioconnection.moc.cpp: $(srcdir)/ioconnection.h
+	$(MOC) $(srcdir)/ioconnection.h -o ioconnection.moc.cpp
+
+#>+ 3
+uichanneldialog.moc.cpp: $(srcdir)/uichanneldialog.h
+	$(MOC) $(srcdir)/uichanneldialog.h -o uichanneldialog.moc.cpp
+
+#>+ 3
+uipage.moc.cpp: $(srcdir)/uipage.h
+	$(MOC) $(srcdir)/uipage.h -o uipage.moc.cpp
+
+#>+ 3
+uisearch.moc.cpp: $(srcdir)/uisearch.h
+	$(MOC) $(srcdir)/uisearch.h -o uisearch.moc.cpp
+
+#>+ 3
+uiconsolepage.moc.cpp: $(srcdir)/uiconsolepage.h
+	$(MOC) $(srcdir)/uiconsolepage.h -o uiconsolepage.moc.cpp
+
+#>+ 3
+uibrowsepage.moc.cpp: $(srcdir)/uibrowsepage.h
+	$(MOC) $(srcdir)/uibrowsepage.h -o uibrowsepage.moc.cpp
+
+#>+ 3
+uitransferpage.moc.cpp: $(srcdir)/uitransferpage.h
+	$(MOC) $(srcdir)/uitransferpage.h -o uitransferpage.moc.cpp
+
+#>+ 3
+uipageheaderbutton.moc.cpp: $(srcdir)/uipageheaderbutton.h
+	$(MOC) $(srcdir)/uipageheaderbutton.h -o uipageheaderbutton.moc.cpp
+
+#>+ 3
+uipageheader.moc.cpp: $(srcdir)/uipageheader.h
+	$(MOC) $(srcdir)/uipageheader.h -o uipageheader.moc.cpp
+
+#>+ 3
+clean-metasources:
+	-rm -f  iosupport.moc.cpp uipageview.moc.cpp uipagemenu.moc.cpp uichannelpage.moc.cpp uisearchpage.moc.cpp uisetupdialog.moc.cpp ionapstertransfer.moc.cpp uipageheaderdrag.moc.cpp koog.moc.cpp uilistview.moc.cpp uilibrarypage.moc.cpp ionapsterconnection.moc.cpp uipagetext.moc.cpp uisourcebase.moc ioconnection.moc.cpp uichanneldialog.moc.cpp uipage.moc.cpp uisearch.moc.cpp uiconsolepage.moc.cpp uibrowsepage.moc.cpp uitransferpage.moc.cpp uipageheaderbutton.moc.cpp uipageheader.moc.cpp
+
+#>+ 6
+clean-ui:
+	-rm -f \
+	uichanneldialogbase.cpp uichanneldialogbase.h uichanneldialogbase.moc \
+	uisetupdialogbase.cpp uisetupdialogbase.h uisetupdialogbase.moc \
+	uisearchbase.cpp uisearchbase.h uisearchbase.moc 
+
+#>+ 2
+docs-am:
+
+#>+ 5
+force-reedit:
+		cd $(top_srcdir) && $(AUTOMAKE) --gnu --include-deps koog/Makefile
+	cd $(top_srcdir) && perl admin/am_edit koog/Makefile.in
+
+
+#>+ 10
+koog_meta_unload.cpp:  iosupport.moc.cpp uipagemenu.moc.cpp uipageview.moc.cpp uichannelpage.moc.cpp uisearchpage.moc.cpp uisetupdialog.moc.cpp ionapstertransfer.moc.cpp uipageheaderdrag.moc.cpp koog.moc.cpp uilibrarypage.moc.cpp uilistview.moc.cpp ionapsterconnection.moc.cpp uipagetext.moc.cpp ioconnection.moc.cpp uichanneldialog.moc.cpp uipage.moc.cpp uisearch.moc.cpp uiconsolepage.moc.cpp uibrowsepage.moc.cpp uitransferpage.moc.cpp uipageheaderbutton.moc.cpp uipageheader.moc.cpp uichanneldialogbase.moc uisetupdialogbase.moc uisearchbase.moc
+	@echo 'creating koog_meta_unload.cpp'
+	-rm -f koog_meta_unload.cpp
+	@echo 'static const char * _metalist_koog[] = {' > koog_meta_unload.cpp
+	cat  iosupport.moc.cpp uipagemenu.moc.cpp uipageview.moc.cpp uichannelpage.moc.cpp uisearchpage.moc.cpp uisetupdialog.moc.cpp ionapstertransfer.moc.cpp uipageheaderdrag.moc.cpp koog.moc.cpp uilibrarypage.moc.cpp uilistview.moc.cpp ionapsterconnection.moc.cpp uipagetext.moc.cpp ioconnection.moc.cpp uichanneldialog.moc.cpp uipage.moc.cpp uisearch.moc.cpp uiconsolepage.moc.cpp uibrowsepage.moc.cpp uitransferpage.moc.cpp uipageheaderbutton.moc.cpp uipageheader.moc.cpp uichanneldialogbase.moc uisetupdialogbase.moc uisearchbase.moc | grep 'char.*className' | sed -e 's/.*[^A-Za-z0-9_:]\([A-Za-z0-9_:]*\)::className.*$$/\"\1\",/' | sort | uniq >> koog_meta_unload.cpp
+	@echo '0};' >> koog_meta_unload.cpp
+	@echo '#include <kunload.h>' >> koog_meta_unload.cpp
+	@echo '_UNLOAD(koog)' >> koog_meta_unload.cpp
+
+
+#>+ 3
+clean-moc-classes:
+	-rm -f  koog_meta_unload.cpp
+
+#>+ 11
+koog.all_cpp.cpp: $(srcdir)/Makefile.in $(srcdir)/uichanneldialog.cpp $(srcdir)/uipagetext.cpp $(srcdir)/uipageview.cpp $(srcdir)/uipagemenu.cpp $(srcdir)/uichannelpage.cpp $(srcdir)/mp3header.cpp $(srcdir)/uipageheaderdrag.cpp $(srcdir)/uipageheaderbutton.cpp $(srcdir)/uipageheader.cpp $(srcdir)/uisetupdialog.cpp $(srcdir)/uibrowsepage.cpp $(srcdir)/uilibrarypage.cpp $(srcdir)/uilistview.cpp $(srcdir)/uisearch.cpp $(srcdir)/uiconsolepage.cpp $(srcdir)/iosupport.cpp $(srcdir)/ionapstertransfer.cpp $(srcdir)/ionapsterconnection.cpp $(srcdir)/ionapstercodes.cpp $(srcdir)/iomessage.cpp $(srcdir)/ioconnection.cpp $(srcdir)/uitransferpage.cpp $(srcdir)/uisearchpage.cpp $(srcdir)/uipage.cpp $(srcdir)/koog.cpp $(srcdir)/main.cpp $(srcdir)/uichanneldialogbase.cpp $(srcdir)/uisetupdialogbase.cpp $(srcdir)/uisearchbase.cpp koog_meta_unload.cpp  iosupport.moc.cpp uipageview.moc.cpp uipagemenu.moc.cpp uichannelpage.moc.cpp uisearchpage.moc.cpp uisetupdialog.moc.cpp ionapstertransfer.moc.cpp uipageheaderdrag.moc.cpp koog.moc.cpp uilistview.moc.cpp uilibrarypage.moc.cpp ionapsterconnection.moc.cpp uipagetext.moc.cpp ioconnection.moc.cpp uichanneldialog.moc.cpp uipage.moc.cpp uisearch.moc.cpp uiconsolepage.moc.cpp uibrowsepage.moc.cpp uitransferpage.moc.cpp uipageheaderbutton.moc.cpp uipageheader.moc.cpp uisourcebase.moc 
+	@echo 'creating koog.all_cpp.cpp ...'; \
+	rm -f koog.all_cpp.files koog.all_cpp.final; \
+	echo "#define KDE_USE_FINAL 1" >> koog.all_cpp.final; \
+	for file in uichanneldialog.cpp uipagetext.cpp uipageview.cpp uipagemenu.cpp uichannelpage.cpp mp3header.cpp uipageheaderdrag.cpp uipageheaderbutton.cpp uipageheader.cpp uisetupdialog.cpp uibrowsepage.cpp uilibrarypage.cpp uilistview.cpp uisearch.cpp uiconsolepage.cpp iosupport.cpp ionapstertransfer.cpp ionapsterconnection.cpp ionapstercodes.cpp iomessage.cpp ioconnection.cpp uitransferpage.cpp uisearchpage.cpp uipage.cpp koog.cpp main.cpp uichanneldialogbase.cpp uisetupdialogbase.cpp uisearchbase.cpp koog_meta_unload.cpp  iosupport.moc.cpp uipageview.moc.cpp uipagemenu.moc.cpp uichannelpage.moc.cpp uisearchpage.moc.cpp uisetupdialog.moc.cpp ionapstertransfer.moc.cpp uipageheaderdrag.moc.cpp koog.moc.cpp uilistview.moc.cpp uilibrarypage.moc.cpp ionapsterconnection.moc.cpp uipagetext.moc.cpp ioconnection.moc.cpp uichanneldialog.moc.cpp uipage.moc.cpp uisearch.moc.cpp uiconsolepage.moc.cpp uibrowsepage.moc.cpp uitransferpage.moc.cpp uipageheaderbutton.moc.cpp uipageheader.moc.cpp; do \
+	  echo "#include \"$$file\"" >> koog.all_cpp.files; \
+	  test ! -f $(srcdir)/$$file || egrep '^#pragma +implementation' $(srcdir)/$$file >> koog.all_cpp.final; \
+	done; \
+	cat koog.all_cpp.final koog.all_cpp.files  > koog.all_cpp.cpp; \
+	rm -f koog.all_cpp.final koog.all_cpp.files
+
+#>+ 3
+clean-final:
+	-rm -f koog.all_cpp.cpp
+
+#>+ 2
+final:
+	$(MAKE) koog_OBJECTS="$(koog_final_OBJECTS)" all-am
+#>+ 2
+no-final:
+	$(MAKE) koog_OBJECTS="$(koog_nofinal_OBJECTS)" all-am
+#>+ 3
+cvs-clean:
+	$(MAKE) -f $(top_srcdir)/admin/Makefile.common cvs-clean
+
+#>+ 3
+kde-rpo-clean:
+	-rm -f *.rpo
+
+#>+ 28
+$(srcdir)/koog.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/iomessage.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/iosupport.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/ionapsterconnection.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/ioconnection.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uiconsolepage.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uisearch.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uilibrarypage.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uipageheaderbutton.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uipagetext.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uisourcebase.cpp: uisourcebase.moc 
+$(srcdir)/uichannelpage.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uipage.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uipageheaderdrag.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/main.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uipageview.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/ionapstertransfer.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uibrowsepage.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uisearchpage.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uipagemenu.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uilistview.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uitransferpage.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/mp3header.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uipageheader.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uisetupdialog.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/uichanneldialog.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 
+$(srcdir)/ionapstercodes.cpp: uichanneldialogbase.h uisetupdialogbase.h uisearchbase.h 

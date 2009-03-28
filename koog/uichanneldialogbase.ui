@@ -1,0 +1,241 @@
+<!DOCTYPE UI><UI>
+<class>UIChannelDialogBase</class>
+<widget>
+    <class>QDialog</class>
+    <property stdset="1">
+        <name>name</name>
+        <cstring>UIChannelDialogBase</cstring>
+    </property>
+    <property stdset="1">
+        <name>geometry</name>
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>371</width>
+            <height>407</height>
+        </rect>
+    </property>
+    <property stdset="1">
+        <name>caption</name>
+        <string>MyDialog</string>
+    </property>
+    <property stdset="1">
+        <name>sizeGripEnabled</name>
+        <bool>true</bool>
+    </property>
+    <vbox>
+        <property stdset="1">
+            <name>margin</name>
+            <number>11</number>
+        </property>
+        <property stdset="1">
+            <name>spacing</name>
+            <number>6</number>
+        </property>
+        <widget>
+            <class>QLabel</class>
+            <property stdset="1">
+                <name>name</name>
+                <cstring>m_title</cstring>
+            </property>
+            <property stdset="1">
+                <name>text</name>
+                <string>Choose a channel below:</string>
+            </property>
+        </widget>
+        <widget>
+            <class>QListView</class>
+            <column>
+                <property>
+                    <name>text</name>
+                    <string>Channel</string>
+                </property>
+                <property>
+                    <name>clickable</name>
+                    <bool>true</bool>
+                </property>
+                <property>
+                    <name>resizeable</name>
+                    <bool>true</bool>
+                </property>
+            </column>
+            <column>
+                <property>
+                    <name>text</name>
+                    <string>Users</string>
+                </property>
+                <property>
+                    <name>clickable</name>
+                    <bool>true</bool>
+                </property>
+                <property>
+                    <name>resizeable</name>
+                    <bool>true</bool>
+                </property>
+            </column>
+            <column>
+                <property>
+                    <name>text</name>
+                    <string>Title</string>
+                </property>
+                <property>
+                    <name>clickable</name>
+                    <bool>true</bool>
+                </property>
+                <property>
+                    <name>resizeable</name>
+                    <bool>true</bool>
+                </property>
+            </column>
+            <property stdset="1">
+                <name>name</name>
+                <cstring>m_view</cstring>
+            </property>
+            <property stdset="1">
+                <name>vScrollBarMode</name>
+                <enum>AlwaysOn</enum>
+            </property>
+            <property stdset="1">
+                <name>hScrollBarMode</name>
+                <enum>AlwaysOff</enum>
+            </property>
+            <property stdset="1">
+                <name>selectionMode</name>
+                <enum>Extended</enum>
+            </property>
+            <property stdset="1">
+                <name>allColumnsShowFocus</name>
+                <bool>true</bool>
+            </property>
+            <property stdset="1">
+                <name>rootIsDecorated</name>
+                <bool>true</bool>
+            </property>
+        </widget>
+        <widget>
+            <class>QLayoutWidget</class>
+            <property stdset="1">
+                <name>name</name>
+                <cstring>Layout2</cstring>
+            </property>
+            <hbox>
+                <property stdset="1">
+                    <name>margin</name>
+                    <number>0</number>
+                </property>
+                <property stdset="1">
+                    <name>spacing</name>
+                    <number>6</number>
+                </property>
+                <widget>
+                    <class>QCheckBox</class>
+                    <property stdset="1">
+                        <name>name</name>
+                        <cstring>m_viewCheck</cstring>
+                    </property>
+                    <property stdset="1">
+                        <name>sizePolicy</name>
+                        <sizepolicy>
+                            <hsizetype>3</hsizetype>
+                            <vsizetype>0</vsizetype>
+                        </sizepolicy>
+                    </property>
+                    <property stdset="1">
+                        <name>text</name>
+                        <string>View all channels</string>
+                    </property>
+                </widget>
+                <widget>
+                    <class>QPushButton</class>
+                    <property stdset="1">
+                        <name>name</name>
+                        <cstring>m_buttonJoin</cstring>
+                    </property>
+                    <property stdset="1">
+                        <name>text</name>
+                        <string>&amp;Join</string>
+                    </property>
+                    <property stdset="1">
+                        <name>autoDefault</name>
+                        <bool>true</bool>
+                    </property>
+                    <property stdset="1">
+                        <name>default</name>
+                        <bool>true</bool>
+                    </property>
+                </widget>
+                <widget>
+                    <class>QPushButton</class>
+                    <property stdset="1">
+                        <name>name</name>
+                        <cstring>m_buttonCancel</cstring>
+                    </property>
+                    <property stdset="1">
+                        <name>text</name>
+                        <string>&amp;Cancel</string>
+                    </property>
+                    <property stdset="1">
+                        <name>autoDefault</name>
+                        <bool>true</bool>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </vbox>
+</widget>
+<connections>
+    <connection>
+        <sender>m_buttonCancel</sender>
+        <signal>clicked()</signal>
+        <receiver>UIChannelDialogBase</receiver>
+        <slot>reject()</slot>
+    </connection>
+    <connection>
+        <sender>m_view</sender>
+        <signal>rightButtonClicked(QListViewItem*,const QPoint&amp;,int)</signal>
+        <receiver>UIChannelDialogBase</receiver>
+        <slot>slot_ViewMenu( QListViewItem *, const QPoint &amp; )</slot>
+    </connection>
+    <connection>
+        <sender>m_view</sender>
+        <signal>currentChanged(QListViewItem*)</signal>
+        <receiver>UIChannelDialogBase</receiver>
+        <slot>slot_ViewClicked( QListViewItem * )</slot>
+    </connection>
+    <connection>
+        <sender>m_view</sender>
+        <signal>clicked(QListViewItem*)</signal>
+        <receiver>UIChannelDialogBase</receiver>
+        <slot>slot_ViewClicked( QListViewItem * )</slot>
+    </connection>
+    <connection>
+        <sender>m_view</sender>
+        <signal>doubleClicked(QListViewItem*)</signal>
+        <receiver>UIChannelDialogBase</receiver>
+        <slot>slot_ViewExecuted( QListViewItem * )</slot>
+    </connection>
+    <connection>
+        <sender>m_view</sender>
+        <signal>returnPressed(QListViewItem*)</signal>
+        <receiver>UIChannelDialogBase</receiver>
+        <slot>slot_ViewExecuted( QListViewItem * )</slot>
+    </connection>
+    <connection>
+        <sender>m_viewCheck</sender>
+        <signal>toggled(bool)</signal>
+        <receiver>UIChannelDialogBase</receiver>
+        <slot>slot_ChanToggled( bool )</slot>
+    </connection>
+    <connection>
+        <sender>m_buttonJoin</sender>
+        <signal>clicked()</signal>
+        <receiver>UIChannelDialogBase</receiver>
+        <slot>slot_Join()</slot>
+    </connection>
+    <slot access="protected">slot_Join()</slot>
+    <slot access="protected">slot_ChanToggled( bool )</slot>
+    <slot access="protected">slot_ViewClicked( QListViewItem * )</slot>
+    <slot access="protected">slot_ViewExecuted( QListViewItem * )</slot>
+    <slot access="protected">slot_ViewMenu( QListViewItem *, const QPoint &amp; )</slot>
+</connections>
+</UI>

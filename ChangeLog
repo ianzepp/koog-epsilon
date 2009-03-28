@@ -1,0 +1,15 @@
+As of March 13, 2001
+====================
+
+Reworked UITransferView
+	- integrated standard UIPageView and UIPageMenu
+	- fixed download config error
+	- added existing file checks
+Added UIPageText widget (public TextView)
+        - supports autoscrolling for added text
+Added UIChannelPage widget
+        - supported autoscrolling
+        - minimal colorization
+Added UIChannelDialog widget for channel selection
+        - supports both official and user-created channels
+        - support browse from channel

@@ -1,0 +1,12 @@
+# KDE Config File  
+[Desktop Entry]
+Type=Application
+Exec=koog -caption "%c" %i %m  
+Icon=koog.png
+MiniIcon=koog.png
+DocPath=koog/index.html
+Comment=
+Comment[de]=
+Terminal=0
+Name=Koog
+Name[de]=Koog
